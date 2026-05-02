@@ -151,20 +151,6 @@ The core objective is to **identify crime trends, spatial hotspots, and predicti
 
 ---
 
-## Future Implementation
-
-- **Real-time streaming pipeline**: Replace batch ingestion with live Sodapy API streaming for up-to-date crime feeds
-- **Deep learning models**: Explore LSTM / Temporal Fusion Transformer for improved time-series forecasting
-- **Richer feature set**: Integrate socioeconomic indicators (unemployment, population density, poverty rates) and weather data to improve crime category classification beyond 56% accuracy
-- **Interactive dashboard**: Build a Streamlit or Dash web app embedding Folium maps, Plotly charts, and live model inference
-- **Ensemble modeling**: Combine XGBoost, LightGBM, and Random Forest predictions via stacking for improved arrest prediction
-- **Spatial interpolation**: Apply kriging or kernel density estimation for smoother, continuous hotspot surface maps
-- **Address unreported crime bias**: Integrate victim survey data to correct for survivorship bias in the official records
-- **Fairness analysis**: Evaluate model predictions across demographic and geographic subgroups to detect potential bias in arrest prediction
-- **Automated retraining pipeline**: Scheduled MLflow-tracked model refresh as new annual data is published
-
----
-
 ## Data Provenance and Description
 
 ### Source

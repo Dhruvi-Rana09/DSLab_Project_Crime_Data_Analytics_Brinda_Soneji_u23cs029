@@ -14,7 +14,7 @@ The core objective is to **identify crime trends, spatial hotspots, and predicti
 | Attribute | Value |
 |---|---|
 | Dataset | Chicago Crime Dataset (2001–2023) |
-| Source | [data.cityofchicago.org](https://data.cityofchicago.org) |
+| Source | [data.cityofchicago.org](https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.csv?accessType=DOWNLOAD) |
 | Total Records | 7,842,937 incident records |
 | Columns | 22 features per record |
 | Memory Footprint | ~5,602 MB |

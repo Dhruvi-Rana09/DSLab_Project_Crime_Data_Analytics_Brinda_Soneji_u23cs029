@@ -14,7 +14,7 @@ The core objective is to **identify crime trends, spatial hotspots, and predicti
 | Attribute | Value |
 |---|---|
 | Dataset | Chicago Crime Dataset (2001–2023) |
-| Source | [data.cityofchicago.org](https://data.cityofchicago.org) |
+| Source | [data.cityofchicago.org](https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.csv?accessType=DOWNLOAD) |
 | Total Records | 7,842,937 incident records |
 | Columns | 22 features per record |
 | Memory Footprint | ~5,602 MB |
@@ -156,7 +156,7 @@ The core objective is to **identify crime trends, spatial hotspots, and predicti
 ### Source
 - **Dataset Name:** Chicago Crime Data (2001–Present)
 - **Provider:** City of Chicago — Department of Police
-- **Portal:** [data.cityofchicago.org](https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.csv?accessType=DOWNLOAD)
+- **Portal:** [data.cityofchicago.org](https://data.cityofchicago.org)
 - **Access Method:** Sodapy API (Chicago Open Data Portal) with local Parquet cache
 - **License:** Public domain (City of Chicago Open Data License)
 
